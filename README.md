@@ -223,19 +223,19 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
   1. **criar o ambiente virtual**
 
   ```bash
-  $ python3 -m venv .venv
+  python3 -m venv .venv
   ```
 
   2. **ativar o ambiente virtual**
 
   ```bash
-  $ source .venv/bin/activate
+  source .venv/bin/activate
   ```
 
   3. **instalar as dependências no ambiente virtual**
 
   ```bash
-  $ python3 -m pip install -r dev-requirements.txt
+  python3 -m pip install -r dev-requirements.txt
   ```
 
   Com o seu ambiente virtual ativo, as dependências serão instaladas neste ambiente.
@@ -252,7 +252,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
   <strong>Executar os testes</strong>
 
   ```bash
-  $ python3 -m pytest
+  python3 -m pytest
   ```
 
   O arquivo `pyproject.toml` já configura corretamente o pytest. Entretanto, caso você tenha problemas com isso e queira explicitamente uma saída completa, o comando é:
