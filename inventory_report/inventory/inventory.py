@@ -1,8 +1,8 @@
 from inventory_report.reports.simple_report import SimpleReport
 from inventory_report.reports.complete_report import CompleteReport
+import xmltodict
 import csv
 import json
-import xmltodict
 
 
 class Inventory:
